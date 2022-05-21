@@ -754,4 +754,7 @@ margin-right:0px;
 .flex_container img {
 	margin:10px !important;
 }
+.viewall_btn  {
+	margin:0 auto;
+}
 }
