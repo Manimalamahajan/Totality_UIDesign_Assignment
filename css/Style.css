@@ -633,11 +633,11 @@ height: 100%;
 .discover_text,.nft_text {
 	font-size: 10px;
 line-height: 17px;
-transform: translate(5%,73%);
+transform: translate(5%,108%);
 }
 .ellipse_text img {
 	height:25px;
-	transform: translate(5%,58%);
+	transform: translate(5%,65%);
 }
 .nft_text { 
 top:9px;
@@ -647,13 +647,13 @@ left:19px;
 	font-size: 10px;
 	line-height: 14px;
     margin-top: 20px;
-    transform: translate(5%,14%);
+    transform: translate(5%,10%);
 }
 .exp_btn,.crt_btn,.bid_btn {
     width: 70px !important;
     height: 24px !important;
 	font-size:12px;
-	 transform: translate(5%,14%);
+	 transform: translate(5%,20%);
 	 line-height:1;
 }
 .mar_top {
