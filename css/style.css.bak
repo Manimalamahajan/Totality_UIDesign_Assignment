@@ -607,7 +607,7 @@ margin-left:15px;
 }
 @media only screen and (max-width: 599px) {
 	.bg_imgs {
-  background-size: 100%,100%;
+  background-size: 100%,108%;
 }
 .header_nav {
 	padding:10px;
@@ -640,7 +640,7 @@ transform: translate(5%,108%);
 	transform: translate(5%,65%);
 }
 .nft_text { 
-top:9px;
+top:3px;
 left:19px;
 }
 .nft_market_text{

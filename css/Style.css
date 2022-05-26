@@ -28,7 +28,7 @@ background: url(../images/Noise_hero.png), url(../images/image_64.png);
 .search_div {
 	display:flex;
 	align-items: center;
-	flex-basis: auto;
+	flex: auto;
     flex-grow: 1;
 	justify-content: flex-end;
 }
@@ -84,7 +84,8 @@ align-items: center;
   background-repeat: no-repeat;
   background-size: cover;
     height:100%;
-	flex-basis: 45%;
+	flex: 45%;
+	max-width:45%;
 	padding:130px 70px;
 }
 .discover_text {
@@ -180,7 +181,8 @@ line-height: 25px;
 color: #FFFFFF;
 }
 .banner_right_div {
-	flex-basis: 55%;
+	flex: 55%;
+	max-width:55%;
 	text-align:right;
 }
 .banner_right_div img{
@@ -252,7 +254,8 @@ color: #232323;
 padding: 10px 15px;
 }
 .flex_container .card_div {
-flex-basis:25%;
+flex:25%;
+max-width:25%;
   margin: 19px;
   border: 1px solid transparent;
     border-image: linear-gradient(to bottom, #458DEA, rgba(69, 141, 234, 0.17));
@@ -270,10 +273,12 @@ max-width:1225px;
 	margin-top:20px;
 }
 .notable_left_div {
-flex-basis:68%;
+flex:68%;
+max-width:68%;
 }
 .notable_right_div {
-	flex-basis:28%;
+	flex:28%;
+	max-width:28%;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,13 +384,15 @@ height: 42px !important;
     width: 42px !important;
 }
 .flex_container .exp_div {
-flex-basis:25%;	
+flex:25%;
+max-width:25%;	
 display:flex;
 padding: 10px;
 margin: 10px;
 }
 .flex_container .acc_div {
-flex-basis:50%;
+flex:50%;
+max-width:50%;
 padding: 10px;
 margin: 10px;
 }
@@ -505,11 +512,13 @@ display:flex;
   background-repeat: no-repeat;
   background-size: cover;
   height:auto;
-  flex-basis:45%;
+  flex:45%;
+  max-width:45%;
   padding:50px 70px;
 }
 .footer_right_div {
-	flex-basis:55%;
+	flex:55%;
+	max-width:55%;
 	padding:50px 70px;
 }
 .footer_logo_div,.footer_soc_div {
@@ -627,7 +636,8 @@ height: 100%;
 }
 .bg_blue {
 	padding:20px 10px;
-	flex-basis:50%;
+	flex:50%;
+	max-width:50%;
 	height:100%;
 }
 .discover_text,.nft_text {
@@ -667,8 +677,8 @@ left:19px;
 font-size: 10px;
 }
 .banner_right_div {
-	flex-basis: 50%;
-	
+	flex: 50%;
+	max-width:50%;
 }
 .banner_right_div img {
     transform: translate(-8%,57%);
@@ -688,13 +698,15 @@ flex-wrap:wrap;
 flex-direction: column;
 }
 .flex_container .card_div {
-flex-basis:100%;
+flex:100%;
+max-width:100%;
 }	
 .Create_bg { 
 top:0px;
 }	
 .notable_left_div,.notable_right_div {
-flex-basis:100%;
+flex:100%;
+max-width:100%;
 }
  .slider_card_body p:nth-child(1) img {
 	top: -32px;
@@ -719,7 +731,7 @@ font-size: 12px;
     margin-top: 10px;
 } 
 .flex_container .exp_div,.flex_container .acc_div,.footer_left_div,.footer_right_div {
-flex-basis:100%;	
+flex:100%;max-width:100%;	
 }
 .heading_5,.para_5 {
 	margin-right: 0px;
